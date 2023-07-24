@@ -3,8 +3,9 @@
 
 session_start();
 
+
 //$rpath = $_SERVER['REQUEST_URI'];
-$rpath = '';
+$rpath = '/dashboard/gieqs-box';
 if($rpath != '')
 {
      $dbp = explode('/', $rpath);

@@ -4,7 +4,7 @@ switch (true) {
     break;
   case winLocation("localhost"):
     //var rootFolder = "http://localhost:90/dashboard/gieqs/";
-    var rootFolder = "http://localhost/gieqs/";
+    var rootFolder = "http://localhost:90/dashboard/gieqs-box/";
     break;
 
   // case winLocation("gieqs.co.uk"):
@@ -12,7 +12,7 @@ switch (true) {
   //   var rootFolder = "https://gieqs.co.uk/";
   //   break;
   // case winLocation("gieqs.localhost"):
-  //   var rootFolder = "http://localhost/gieqs/";
+  //   var rootFolder = "http://localhost:90/dashboard/gieqs-box/";
   //   break;
   default:
     // set whatever you want

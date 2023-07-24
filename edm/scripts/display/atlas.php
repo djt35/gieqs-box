@@ -232,7 +232,7 @@ switch (true) {
 				break;
 
 			case winLocation('localhost'):
-				var rootFolder = 'http://localhost/gieqs/edm/';
+				var rootFolder = 'http://localhost:90/dashboard/gieqs-box/edm/';
 				break;
 
 			default: // set whatever you want

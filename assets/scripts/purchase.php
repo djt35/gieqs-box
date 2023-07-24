@@ -478,13 +478,13 @@ switch (true) {
         var rootFolder2 = 'https://www.gieqs.com/';
         break;
     case winLocation('localhost'):
-        var rootFolder2 = 'http://localhost/gieqs/';
+        var rootFolder2 = 'http://localhost:90/dashboard/gieqs-box/';
         break;
     // case winLocation('gieqs.co.uk'):
     // var rootFolder2 = 'https://gieqs.co.uk/';
     // break;    
     // case winLocation("gieqs.localhost"):
-    //     var rootFolder2 = "http://localhost/gieqs/";
+    //     var rootFolder2 = "http://localhost:90/dashboard/gieqs-box/";
     // break;    
     default: // set whatever you want
         var rootFolder2 = window.location.origin +'/';

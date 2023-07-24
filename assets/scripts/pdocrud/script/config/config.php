@@ -23,7 +23,7 @@ if ($local){
 
 //script url - Enter complete url inside which script folder is placed. Please note that it doesn't include the script folder
 //$config["script_url"] = "http://localhost:90/dashboard/gieqs/assets/scripts/pdocrud/";
-$config["script_url"] = "http://localhost/gieqs/assets/scripts/pdocrud/";
+$config["script_url"] = "http://localhost:90/dashboard/gieqs-box/assets/scripts/pdocrud/";
 /************************ database ************************/
 //Set the host name to connect for database
 $config["hostname"] =  "localhost";

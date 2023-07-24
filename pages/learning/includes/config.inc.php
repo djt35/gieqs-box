@@ -6,7 +6,7 @@ session_start();
 // $_SESSION['relative'] = $relative_path;
 // global $relative_path;
 //$rpath = $_SERVER['REQUEST_URI'];
-$rpath = '';
+$rpath = '/dashboard/gieqs-box';
 if($rpath != '')
 {
      $dbp = explode('/', $rpath);

@@ -32,7 +32,7 @@ switch (true) {
   // 	break;
   case winLocation("localhost"):
     //var rootFolder = "http://localhost:90/dashboard/gieqs/";
-    var rootFolder = "http://localhost/gieqs/pages/learning/";
+    var rootFolder = "http://localhost:90/dashboard/gieqs-box/pages/learning/";
     break;
   // case winLocation("gieqs.co.uk"):
   //   //var rootFolder = "http://localhost:90/dashboard/gieqs/";
@@ -40,10 +40,10 @@ switch (true) {
   //   break;
 
   // case winLocation("gieqs.localhost"):
-  //   var rootFolder = "http://localhost/gieqs/pages/learning/";
+  //   var rootFolder = "http://localhost:90/dashboard/gieqs-box/pages/learning/";
   //   break;
   // case winLocation("gieqs"):
-  //   var rootFolder = "http://localhost/gieqs/pages/learning/";
+  //   var rootFolder = "http://localhost:90/dashboard/gieqs-box/pages/learning/";
   //   break;
 
   default:

@@ -7,7 +7,7 @@ switch (true) {
   // break;
   case winLocation("localhost"):
     //var rootFolder = "http://localhost:90/dashboard/gieqs/";
-    var rootFolder = "http://localhost/gieqs/edm";
+    var rootFolder = "http://localhost:90/dashboard/gieqs-box/edm";
     break;
   // case winLocation("gieqs.co.uk"):
   //   //var rootFolder = "http://localhost:90/dashboard/gieqs/";
@@ -15,7 +15,7 @@ switch (true) {
   //     "http://alb-gieqs-stage-new-1097212869.eu-west-3.elb.amazonaws.com/edm";
   //   break;
   // case winLocation("gieqs"):
-  //   var rootFolder = "http://localhost/gieqs/edm";
+  //   var rootFolder = "http://localhost:90/dashboard/gieqs-box/edm";
   //   break;
   default:
     // set whatever you want

@@ -3,7 +3,7 @@ session_start();
 $host = substr($_SERVER['HTTP_HOST'], 0, 5);
 $host_list = in_array($host, array('local', 'gieqs', '127.0', '192.1'));
 $host_name = 'localhost';
-$port = '3306';
+$port = '3308';
 
 if ($host_list) {
         $local = TRUE;
@@ -34,14 +34,14 @@ if ($host_list) {
     {
     
         $document_root_main = $_SERVER['DOCUMENT_ROOT'];
-        $url_main = 'http://gieqs.localhost';
+        $url_main = 'http://localhost:90/dashboard/gieqs-box';
         $database_connection_main = $_SERVER['DOCUMENT_ROOT'].'/mysqli_connect_gieqs.inc.php';
 
 
 //if EDM used
 
         $document_root_edm = $_SERVER['DOCUMENT_ROOT'].'/edm';
-        $url_edm = 'http://gieqs.localhost/edm';
+        $url_edm = 'http://localhost:90/dashboard/gieqs-box/edm';
         $database_connection_edm = $_SERVER['DOCUMENT_ROOT'].'/mysqli_connect_POEM.inc.php';
 
         ////wp db connection

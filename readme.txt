@@ -4,7 +4,7 @@ Step 1:
 Open your project in Visula Studio Code.
 Go to search section at left side.
 Find and replace :
-http://localhost/gieqs -- replace by your local path.
+http://localhost:90/dashboard/gieqs-box -- replace by your local path.
 
 Step 2:
 Change Host name in project:
@@ -35,7 +35,7 @@ Config folder:
             $rootfolder = '/gieqs';  Line No 18
             $_SESSION['rootfolder'] = $rootfolder;
 
-            change $url_main = 'http://localhost/gieqs'; (Enter your localhost url) line no 67.
+            change $url_main = 'http://localhost:90/dashboard/gieqs-box'; (Enter your localhost url) line no 67.
 
 	>> if project file location: htdocs/dashboard/gieqs like this
 
@@ -43,7 +43,7 @@ Config folder:
             $rootfolder = '/dashboard/gieqs';   Line No 18
             $_SESSION['rootfolder'] = $rootfolder;
 
-            change $url_main = 'http://localhost/gieqs'; (Enter your localhost url) line no 67.
+            change $url_main = 'http://localhost:90/dashboard/gieqs-box'; (Enter your localhost url) line no 67.
 
 
 Step 4:
@@ -60,6 +60,6 @@ Database-
 you have to update wordpress database table .
 
 open this sql file in editor. then search and replace
-https://gieqs.com -> http://localhost/gieqs (localhost url)
+https://gieqs.com -> http://localhost:90/dashboard/gieqs-box (localhost url)
 
 
