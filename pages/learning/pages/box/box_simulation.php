@@ -1830,17 +1830,18 @@
 
                     var commadId = [];
                     var rsponseId = [];
+                    var rowCounter = 1;
 
                     $('.command-response-row').each(function() {
 
                         var count = $(this).attr('data-count'); 
                        
-                        if (row_id >= 1) {
+                        if (rowCounter <= row_id) {
 
                             count = parseInt(count);
-                            commadId.push($('#command_' + row_id).val());
-                            rsponseId.push( $(document).find(".command-response-row[data-count='"+row_id+"']").find('p').attr('data-id'));                           
-                            row_id--;
+                            commadId.push($('#command_' + rowCounter).val());
+                            rsponseId.push( $(document).find(".command-response-row[data-count='"+rowCounter+"']").find('p').attr('data-id'));                           
+                            rowCounter++;
                         }
 
                     });
